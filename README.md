@@ -18,7 +18,7 @@ By clicking on the index file the website should run automatically on a browser 
 
 ### Using the site 
 
-!screenhome.jpeg
+!screenhome.jpg
 
 The site is a menu listing 8 sample works. Click to view them.
 

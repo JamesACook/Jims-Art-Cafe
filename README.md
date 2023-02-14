@@ -17,8 +17,7 @@ The pages are responsive and should work well on any modern browser or phone. Go
 By clicking on the index file the website should run automatically on a browser with GitHub hosting. Alternatively all the files can be downloaded and run locally in the same fashion.
 
 ### Using the site 
-
-![Image](https://github.com/JamesACook/finalCapstone/blob/main/screenhome.jpg)
+![screenhome](https://user-images.githubusercontent.com/125384035/218826386-1e6bf976-2301-425e-a8a2-382b0e51b81a.jpg)
 
 The site is a menu listing 8 sample works. Click to view them.
 

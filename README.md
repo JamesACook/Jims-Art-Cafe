@@ -39,7 +39,9 @@ James Cook (james.cook@hotmail.co.uk ) is the artist and the site builder!
 ## Version History
 
 v1 10 page site with testimonials, timelines, short survey, e-mail link.
+
 v2 Merely a development phase.
+
 v3 Simplified to a 4 page site with dynamic content in the gallery. E-mail form added and survey. New functionality to save images or like.
 
 ## Acknowledgments

@@ -23,6 +23,8 @@ The site is a menu listing 8 sample works. Click to view them.
 
 On each page there is a like or save button. Once saved you can view all your favourite images together on the favourites page where you can also choose your favourite and say why.
 
+![filey](https://user-images.githubusercontent.com/125384035/218827063-f3db8976-88fb-4e11-b3f6-0d2cc5e9d80f.jpg)
+
 Learn about the artist on the about page and also use the form to send an e-mail.
 
 

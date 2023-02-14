@@ -1,0 +1,233 @@
+/*Main CSS sheet parent of rest but ok on this site to contrast to rest. Colours are based
+on Miami green/pink but shifted slightly for Yorkhire and more purple like the heather on the
+moors as it is known for and is less edgy than Miami. Also I feel funky, sharp websites look great 
+but alienate some (older, wealthy) viewers and are less trusted than muted/natural is my feeling.
+Though this is an artist website so we can be eccentric if we want!*/
+
+* {
+  color: #222222; /* Not gone for pure black to help accessibility but also less harsh
+  made this site-wide. Look/feel translates to print more easily too with softer black*/
+  }
+
+body {
+  background-image: url('rosetop1.png'); /*transparent png of my photo with featehr looks nice
+  vs tiling or stopping*/
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "century gothic", sans-serif;/* very stylish font ideal for art*/
+  padding:3%;
+  background-color: #9cc765; /* apple/poppy green but match photo modern undertones*/
+  }
+  
+  
+h1 { /* clever CSS created logo and responive with media queries below*/
+  /* would consider changing e.g. to a div as a logo but is a text one with keywords!*/
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom:0px;
+  padding: .4em .8em .5em;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.6); /*opacity to ghost image plus layering*/
+  background-color: rgb(12, 130, 151,0.9);
+  border-style: solid;
+  border-radius: 80px;
+  border-width: .2em;
+  border-color:#c4a1db;
+  color:#c4a1db;
+  width: 80%; /* stopped being too wide on biggest screens*/
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 2px; /* bit of spacing improves look*/
+  }
+  
+h2 {
+  font-size: 30px;
+  font-family:'Brush Script MT', 'Ink Draft', cursive;
+  } 
+  
+h3 {
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.strapline-table {
+  margin: .3vh auto; /* bit responsive but centred h*/
+  }
+
+td{
+  flex-direction: column; /* more designed centred vertical texts*/
+  text-align:center;
+  }
+
+.strapPop {
+  /* font suits traditional "Yorkshire* and more readable*/
+  font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', f;
+  font-size: 1rem; /* responsive*/
+  text-align: center;  
+  color:rgb(12, 130, 151,0.9);
+  font-style:italic; /* design refinement and contextual*/
+  font-weight:bold;
+  }
+ 
+.strapMenu {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.3rem;
+  text-align: center;  
+  color:rgba(132, 13, 161,0.8); 
+  font-weight: bold;
+  letter-spacing: 3px; /* MENU in bold and spaced important title*/
+  }
+  
+.top-line{ /*see notes in mySigs.css for much of this*/
+  height: 1vh;
+  background-color:rgb(196, 161, 219);   
+  border-radius: 3px;
+  border-color: #c4a1db;
+  border: 1px;
+  max-height: 5px;
+  min-height: 3px;
+  box-shadow: none;
+  margin-bottom: -10px;
+  margin-top:-2px;
+  }
+  
+#signature { /* sig styles given prominence/made special*/
+  color: rgba(132, 13, 161,0.8);
+  background-color: rgba(12, 130, 151, 0.2);
+  width:fit-content;
+  padding: 3px 20px 3px 5px;
+  border-radius: 3px;
+  margin-bottom: 3px;
+  }
+
+#puddings {
+  margin-top:5px;
+  margin-bottom: 3px;
+  color:rgb(12, 130, 151,0.9);
+  }
+
+.meet { /* the about button which was at first meet the artist*/
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(196, 161, 219, 0.6);
+  text-align: center;
+  padding:5px; /* played a lot with spacings to get right:*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width:55%;
+  border-radius: 20px;
+  color: rgb(12, 130, 151,0.9);
+  border-color: rgb(12, 130, 151,0.9);
+  border-style: solid;
+  border-width: .2em; /* responsive as chanegs feel a lot*/
+  }
+ 
+.menu {
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 15px;
+  }
+
+.bottom-line {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  height: 1vh;
+  border:none;
+  background-color:rgb(12, 130, 151,0.6);
+  max-height: 5px;
+  min-height: 3px;
+  box-shadow: none;
+  border-radius: 3px;
+  }
+  
+.item p { /*inline block to get prices in line*/
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  }
+  
+.sigdish, .puds {
+  text-align: left;
+  width: 75%;
+  }
+  
+.price {
+  text-align: right;
+  width: 25%; /* smaller section for prices for integrity/sense*/
+  }
+  
+  /* FOOTER */
+  
+footer {
+  font-size: 14px;
+  }
+  
+.ask { /* ask a question mailto*/
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  }
+  
+a {
+  color: #222222;
+  text-decoration: none;
+  }
+  
+a:hover { /* making the links lively but never ugly*/
+  color: rgba(132, 13, 161,0.8);
+  }
+  
+a:active {
+    color:rgb(12, 130, 151,0.9);
+  }
+
+.meet a{
+  color:rgb(12, 130, 151,0.9)
+}
+
+.meet a:hover {
+  color: rgba(132, 13, 161,0.8);
+  }
+
+  /* media queries at 600 px bit larger than might have been but also if small on desktop helps with
+  so much of the design here CSS created not just dependent e.g. logos*/
+
+  @media screen and (max-width:600px){
+    h1 {
+      font-size: 7vw;
+      padding: .4em .6em .5em;
+      letter-spacing: 1px; /* bit less spacing improves look*/
+    }
+    
+    .meet {
+      font-size: 4vw;
+      padding:5px 10px
+      }
+        
+    h3 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    .strapPop {
+      font-size: 0.9rem;
+    }
+       
+    .strapMenu {
+      font-size: 2rem;
+      letter-spacing: 2px; /* same as h1*/
+    }
+
+    }

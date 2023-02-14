@@ -1,0 +1,61 @@
+<!-- The saved for later page-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id ="metaTitle">Your Saved Jim Artworks</title>
+    <link href="css/mySigs.css" rel="stylesheet"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+  </head>
+<!-- On load we gather the array of saved images or display a message only if there are none saved-->
+  <body onload = "savedLoad()">
+    <main>
+      <div class="saved">
+        <header>
+          <h1>Jim's Art Caf&#233;</h1>
+          <div class="savedTitle"><p><b><em style="font-size:x-large; color:rgb(12, 130, 151,0.9);">Your Saved Artworks</em></b></p></div>
+          <hr class="top-line">
+        </header>
+
+      <div id = "savedImagesContainer"></div>
+      <br> <!-- we have added a button to clear the saved list as an extra though if site grew larger could add deletes on each item too-->
+      <button id ="clear" onclick="clearSaved()">Clear your saved list</button>
+      <hr class="bottom-line">
+      <p class="backMenu" ><a target="_parent" href="index.html" title ="back to the menu">BACK TO MENU</a></p> <!-- link back to home-->
+
+      <br>
+<!-- We expanded our radio buttons to cover all images and allow for a (probably positive) comment as required. -->
+      <h4>Please tell us which is your favourite Jim artwork?</h4> 
+
+        <section id = "survey">
+            <div><input type="radio" checked=true name="fave">ONLY Filey</div>
+            <br>
+            <div><input type="radio"  name="fave">LVNG Pickering</div>
+            <br>
+            <div><input type="radio"  name="fave">YORK Mix</div>
+            <br>
+            <div><input type="radio" checked=true name="fave">Whitby Saviour</div>
+            <br>
+            <div><input type="radio"  name="fave">Mondrian Made</div>
+            <br>
+            <div><input type="radio"  name="fave">Lifeboat Warhola</div>
+            <br>
+            <div><input type="radio"  name="fave">Venice Wknd</div>
+            <br>
+            <div><input type="radio"  name="fave">Resolution</div>
+            <br>
+            <form action="" method="get"> <!-- decent size input field can be refined later no validation really required yet-->
+              <label for="reasons"><h4>Please also tell us why?</h4></label>
+              <input type="text" id="reasons" name="reasons"><br><br>
+              <input type="submit" value="Submit">
+            </form>
+          </section>
+        
+      </div>
+    </main> 
+    <script type="text/javascript" src="script/savedPage.js"></script>
+  </body>
+</html>

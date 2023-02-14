@@ -1,0 +1,107 @@
+<!-- T42 Capstone HTML/CSS Interest Website Upgraded-->
+
+<!-- This is an ambitious responsive web/mobile design following the digital art of "Jim". It is a 
+portfolio based on a "pop-out" menu which is a play on pop art or pop up terms and the phrase "to pop out". 
+Yorkshire themed with fairly traditional home image vs modern deep pages intentionally as a juxtaposition. 
+See notes at bottom for reviewer like a checklist. A major revamp here was to cut down from 10 pages to 3
+before adding the saved items page. We have made the gallery pages dynamic with session storage and a
+JSON object storing the text/titles/img src and so on. Local storage is used for the saved items and the
+basic set up for a survey/comment is on the saved for later page. We used to have an e-mail href link now
+we have a contact form on the artist's abut page. We have set up the liked buttons also ready for later
+further functionality to be added. We have a much improved directory structure now with images, css, script
+artworks, in own folders. We have mulitple script files too carefulyl divided too avoid runtime errors
+in the console.-->
+
+<!-- Head details with meta-title and external CSS style sheet-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Art by Jim</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="css/myStyles.css" /> <!--stylesheet links-->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+  </head>
+
+  <body> <!--body element-->
+    <div class="menu"> <!--index only-->
+      <main>
+        <header>
+
+          <h1>Jim's Art Caf&#233;</h1> <!--title with accented e-->
+
+          <table class ="strapline-table"> <!--improved table as required by t29 for strapline/title now with tbody/row-->
+            <tbody>
+              <tr>
+                <td class="strapPop">Yorkshire Pop Out</td>
+                <td class="strapMenu">MENU</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr class="top-line"> <!--a styled horizontal rule-->
+
+        </header>
+
+        <section> <!-- A section for signature style items served on posh square plates! -->
+          <h2 id="signature">Signature Style...</h2> <!--ideally styled with brushscript in CSS-->
+          <article class="item"> <!--menu presentation handled by article and p inline-block on same line and set width % biased to the title not price-->
+            <p class="sigdish"><a onclick="setFiller(LP)" target="_parent" href="galleryTemplate.html" title="see this digital artwork on a square plate">LVNG Pickering</a></p><p class="price">5.55</p>
+          </article>
+          <article class="item"><!--the links are now to 1 dynamic page and have hover and click effects-->
+            <p class="sigdish"><a  onclick="setFiller(OF)" target="_parent" href="galleryTemplate.html" title = "see this digital artwork on a square plate">ONLY Filey</a></p><p class="price">3.69</p>
+          </article>
+          <article class="item"> <!--we can see the setFiller function which places the choice in session storage by passing initials to identify an "Artwork" object from those declared-->
+            <p class="sigdish"><a onclick="setFiller(YM)" target="_parent" href="galleryTemplate.html" title = "see this digital artwork on a square plate">YORK Mix</a></p><p class="price">2.41</p>
+          </article>
+         </section>
+        <section> <!--Second section for "puddings with "Yorkshire Pudding" being famous-->
+          <h3 id = "puddings">Puddings</h3>                    
+          <article class="item">
+            <p class="puds"><a onclick="setFiller(WS)" target="_parent" href="galleryTemplate.html" title = "see this digital artwork on board">Whitby Saviour</a></p><p class="price">9.11</p>
+          </article>
+          <article class="item">
+            <p class="puds"><a onclick="setFiller(VW)" target="_parent" href="galleryTemplate.html" title = "see this digital artwork on canvas">Venice Wknd</a></p><p class="price">3.60</p>
+          </article>
+          <article class="item">
+            <p class="puds"><a onclick="setFiller(RN)" target="_parent" href="galleryTemplate.html" title = "see this digital artwork on a slate">Resolution</a></p><p class="price">7.89</p>
+          </article>
+          <article class="item">
+            <p class="puds"><a onclick="setFiller(MM)" target="_parent" href="galleryTemplate.html" title = "see this digital artwork on a canvas">Mondrian Made</a></p><p class="price">3.65</p>
+          </article>
+          <article class="item">
+            <p class="puds"><a onclick="setFiller(LW)" target="_parent" href="galleryTemplate.html" title = "see this digital artwork on a slate">Lifeboat Warhola</a></p><p class="price">4.04</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer> <!--simple footer gives link to about or the e-mail link now links instead to the saved for later favourites.-->
+        <p class="meet"><a target="_parent" href="meetJim.html" title="meet Jim">ABOUT THE ARTIST</a></p>
+        <p class="ask"><a href="savedPage.html" title="link to favourites">Your favourites...</a></p>
+      </footer>
+    </div>
+    <script type="text/javascript" src="script/index.js"></script>
+  </body>
+</html>
+
+<!--NOTES FOR HYPERION DEV REVIEWER
+  checklist for task:
+1) Save for later page - added with also an empty state and clear button. Each artwork has a save button.
+2) It counts number in the saved array to alert thte total saved as require
+3) Leave comments - see the saved page for a survey of favourite image and reasons
+4) Like button - changes to liked with a heart which in lecture Pieter Hills said seemeed enough for now
+5) Contact form - set up ready on about page.
+6) BONUS - dynamic gallery pages installed via scripting and JSON objects reduces number of pages so much
+easier to edit. 
+7) New cleaner directory structure
+8) Still a highly responsive site with even logos and so on created by CSS responsively.
+9) Saved Images/favourites link on each page as suggested in lecture.
+
+The dynamic gallery pages are significant work with session storage and took perhaps most of the time and
+were not required but akin to the required tasks so hopefully plenty of demonstration here. Things like
+like counters or storing messages sent and comments could be made to work artificially but would seem to 
+come later for full fucntionality when have hosting/accounts/database access perhaps. I am a bit behind 
+after a series of setbacks so am hoping there is more than enough here done.
+-->

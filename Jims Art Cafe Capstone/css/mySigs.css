@@ -1,0 +1,308 @@
+/*Stylesheets for sub-pages with white "gallery style" background*/
+* {
+  color: #222222; /* Not gone for pure black to help accessibility but also less harsh*/
+  }/*looks more sophisticated and better reflects print range if ever have to print */
+
+body {
+  background-size:100%;
+  background-position: center;
+  font-family: "century gothic", sans-serif;/* CG is quite web-safe and is a lovely/ideal modern font*/
+  padding:3%; 
+  background-color: rgba(255, 255, 255,);
+  margin-left: auto; /* L/R margin auto = centring */
+  margin-right: auto;
+  padding: 20px;
+  max-width: 800px; /* Avoid getting too large on big monitors, especially images */
+  border-radius: 15px; /* like Steve Jobs we like radius corners most of the time*/
+  }
+
+#like {
+  margin: 15px;
+  padding: 2px 10px
+}
+
+#save {
+  margin: 15px;
+  padding: 2px 10px
+}
+
+input{
+  width:auto;
+}
+
+#message{
+  width:100%;
+  height:200px; 
+}
+
+#reasons {
+  width:100%;
+  height:100px; 
+
+}
+
+#buttonRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px; /* keeps reasonable on big images media query to maintain logo small*/
+  margin-top: 0;
+  margin-bottom:0px;
+  padding: .4em .8em .5em; /* responsive measures for look/feel*/
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.6); /*some opacity for background images or keep feel*/
+  background-color: rgb(12, 130, 151,0.9);
+  border-style: solid;
+  border-radius: 80px; /* too large so always round ends*/
+  border-width: .2em;
+  border-color:#c4a1db;
+  color:#c4a1db;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+h2 {
+  font-size: 30px;
+  /*common brush style font fairly safe but got alternatives suits subject*/
+  font-family: 'Brush Script MT', 'Allan','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+h3 {
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.artworkTitle { /* covers the two straps below too but tweaked elements*/
+  margin-left: auto;
+  margin-right: auto;
+  font-size:25px;
+  padding-bottom:0px;
+  text-align: center;
+  margin-top: 10px;  
+  margin-bottom: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.strapTitle{ 
+  color:rgb(12, 130, 151,0.9);
+  padding-bottom:0px;
+  text-align:center;   
+}
+
+.strapJim{ 
+  color: rgba(236, 80, 197, 0.8); 
+  font-size: 20px;
+  padding-bottom:0px;
+  text-align: center; 
+  }
+  
+.top-line {
+  height: 1vh;
+  background-color:rgb(196, 161, 219);   
+  border-radius: 3px;
+  border-color: #c4a1db;
+  border: 1px;
+  max-height: 5px; /* avoid too big or too large but responsive*/
+  min-height: 3px;
+  box-shadow: none; /* keeps it nice and flat colours noo 3-D as default */
+  }
+  
+.artwork {
+    width:100%;
+    max-width:600px; /*I have very large monitor can get too big so limited it*/
+    align-items: center;   
+}
+
+.backMenu { /* the return button */
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(196, 161, 219, 0.6);
+  text-align: center;
+  padding:5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:55%;
+  border-radius: 20px;
+  color: rgb(12, 130, 151,0.9);
+  border-color: rgb(12, 130, 151,0.9);
+  border-style: solid;
+  border-width: .2em;
+}
+
+.linkSave {
+  text-align: center;
+}
+
+h1, p {
+  text-align: center;
+  }
+  
+.gallery { /* legacy of "menu" but not highly used*/
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+.bottom-line { /*lower HR similar to top */
+  margin-top: 20px;
+  margin-bottom: 0px;
+  height: 1vh;
+  border:none;
+  background-color:rgb(12, 130, 151,0.6);
+  max-height: 5px;
+  min-height: 3px;
+  box-shadow: none;
+  border-radius: 3px;
+  }
+
+figcaption { /* making sure within image and center and closer*/
+  width: 65%; 
+  text-align:center;
+  margin-top: -2vh;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.timeline, li{  /* to match details font size*/
+  font-size: 14px;
+}
+
+.details {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  text-align:justify;  /*looks neat, saves space, readable
+  on these longer sections of text going to make them more 
+  hidden in future re-writes i.e read more..*/
+}
+
+a {
+  color:rgb(12, 130, 151,0.9); /* to match home but look nice*/
+  text-decoration: none;
+  }
+  
+a:visited { /* visual look more important stays same*/
+  color:rgb(12, 130, 151,0.9);
+  }
+  
+a:hover { /* nice touch improves ux with mouse*/
+  color: rgba(132, 13, 161,0.8);
+  }
+  
+a:active { /* improves ux with phone and mouse*/
+    color:rgb(12, 130, 151,0.9);
+  }
+
+#henry {
+    color:blue; /* classic blue for saviour external link*/
+}
+
+#henry:hover { /* to match details font size*/
+  color: rgba(132, 13, 161,0.8);
+}
+
+#henry:active { /* improves ux with phone and mouse*/
+  color:rgb(12, 130, 151,0.9);
+}
+
+ /* testimonial block*/ 
+#quote { 
+    width: 80%;
+    margin: 8px;
+    border: 2px solid;
+    padding: 10px; 
+    border-color: #9cc765; 
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(49, 173, 173);
+    text-align: center;
+    background-color:rgb(162, 228, 179,0.5)
+}
+/* testimonial attribute*/
+#quoter{ 
+    text-align:right; 
+    color: rgb(46, 170, 170);
+}
+
+/* media queries mainly to make sure integrity on smartphone*/
+  @media screen and (max-width:600px){
+    h1 {
+      font-size: 7vw; /* keep logo on one line*/
+      padding: .4em .6em .5em; /* keep proportions*/
+    }
+
+    .backMenu { /* similar for button*/
+      font-size:12px;
+      padding:5px 10px
+    }
+        
+    h3 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+
+    .details{ /* get more on page in proportion*/
+      font-size: 12px;
+    }
+
+    .time-line, li{ /* sam as abovee*/
+      font-size: 12px;
+    }
+
+    figcaption { /* keeps caption neat*/
+    margin-top: -1vh;
+    font-size: 2.5vw;
+    }
+    
+    .strapTitle{ 
+      font-size: 20px;
+    }
+    
+    .strapJim{ 
+      font-size: 16px;
+    }
+    .gallery { /* get more in less padding*/
+      width: 90%;
+      padding:5px;
+    }
+    .body{
+      padding:5px;
+    }
+}

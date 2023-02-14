@@ -1,0 +1,52 @@
+<!--Now a dynamicalyy generated gallery page-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id ="metaTitle">loading</title> <!-- Set as loading until populated by script working on SS set "page"-->
+    <link href="css/mySigs.css" rel="stylesheet"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+  </head>
+ 
+  <body onload = "galleryLoad()"> <!-- This is setting up the Saved for later array based on if run before-->
+    <main>
+      <div class="gallery">
+        <header>
+          <h1>Jim's Art Caf&#233;</h1>
+          <table class ="artworkTitle">
+          <tbody>
+            <tr>
+              <td class="strapTitle" id ="title">loading</td>
+              <td class="strapJim">by Jim</td>
+            </tr>
+          </tbody>
+          </table>
+          <hr class="top-line">
+        </header>
+
+        <img id="artwork" class="artwork"> <!-- full details of such items set by the SS and the script-->
+
+        <!-- here are the save and like buttons linking onclick to the script functions shown-->
+        <div id="buttonRow"><button id ="save" onclick="saveImage()">Save</button><button id="like" onclick="likeImage()">Like</button></div>
+        
+        <br>
+        
+        <hr class="bottom-line">
+        <p class="backMenu" ><a target="_parent" href="./index.html" title ="back to the menu">BACK TO MENU</a></p> <!-- link back to home-->
+
+        <section>
+          <p id="details" class="details">loading details</p>
+          <br>
+          <p id="secondPara" class="details"></p>
+        </section>
+      
+      </div>
+    </main> 
+    <footer> <!--simple footer reused for linking to the favourites again-->
+      <div class="linkSave"><a href="savedPage.html" title="link to favourites">Your favourites...</a></div>
+    </footer>
+    <script type="text/javascript" src="script/artObjects.js"></script>
+  </body>
+</html>

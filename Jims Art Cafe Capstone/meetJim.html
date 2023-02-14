@@ -1,0 +1,65 @@
+<!-- About Artist page for Jim's Art Cafe (see index.html for intro)-->
+
+<!-- Now shortened and improved with a messaging form later to be linekd to e-mails-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Have a butchers at Jim</title>
+    <link href="css/mySigs.css" rel="stylesheet"/> 
+  </head>
+  <body>
+    <main>
+      <div class="gallery">
+        <header>
+        <h1>Jim's Art Caf&#233;</h1>
+        <!-- unique to page so gone with in line style as fine-->
+        <div class="Meet-Jim"><p><b><em style="font-family: sans-serif; color:rgb(12, 130, 151,0.9);">"Jim AKA Jimbo"</em></b></p></div>
+        <hr class="top-line">
+        </header>
+
+        <figure> <!-- Used a figure and caption as not having full description like in gallery in general-->
+        <img class="artwork" src ="images/JimFace.jpg" alt ="The big face of Jim">
+        <figcaption>One of his earliest works a self-portrait in the Julian Opie style.</figcaption>
+        </figure>
+
+        <hr class="bottom-line"  style="margin-bottom:20px;">
+        <!-- link back to menu -->
+        <p class="backMenu"><a target="_parent" href="index.html" title ="back to the menu">BACK TO MENU</a></p>
+
+        <section> <!--biographical section of "details" -->
+          <BR>
+          <p class ="details">This is Jim's story. In the beginning the world was started by a wise old tortoise and a prodigal hare. Two senior world developers at the GOD Digital Cyberverse Agency. Having created the code for JRR Tolkien they were big fans of the Hobbit and as such wanted a proper "shire" like an idyllic haven away from all the battles for Helmsdeep blah. The tortoise had called the object yourShire while he thought of a better name. As everything good grew from it the hare wanted to call it yolkShire. They settled on Yorkshire and it became GOD's favourite administrative division higher order function object.</p><br>
+          <p class ="details">There were to be 3 great world beating artist's from this county in a trinity series. The first was Henry Moore the sculptor. The second was David Hockney. The third was to be James Cook born in Malton, North Yorkshire in 1979. Now the hare was good and he knew it but was always rushing. Long story short he accidentally made James Cook born in Marton, Cleveland 40 miles away a great explorer. He was a pioneer and superb techinician as programmed but lacked a proper Yorkshire upbringing and lost his way and found himself all at sea. Meanwhile the real James Cook who was supposed to make a huge name for himself found he could not as his name was already taken also the Hare kept trying to cover his mistake and created all sorts of unhelpful mischief to foil him. James needed a new name, something short, easy to remember and unique. He came up with Jim.</p><br>
+          <p class ="details">Jim has honed many technical creative skills to a high level. He nearly sank his friend's Dad's canal boat at 18 and realised naval gazing was well off the agenda. He had an art business for several years and worked with other top artists before realising his true calling, in computer programming. A recent flurry of activity before his coding journey started gives him a good wealth of images to make his first responsive mobile/web app and here it is - Jim's Art Cafe! Enjoy browsing it's just a sample portfolio of his work in effect.</p>
+          <br>
+        </section>
+        <br><br> 
+    
+
+        <h4>Fire Jim An E-mail:</h4> 
+
+        <form> <!-- Form with 3 required fields for identification and character limited message body-->
+            <label for="email">Your e-mail</label><br>
+            <input type="text" name="email" id="email" required><br><br>
+            <label for="name">Enter your name: </label><br>
+            <input type="text" name="name" id="name" required><br><br>
+            <label for="subject">Enter subject: </label><br>
+            <input type="text" name="subject" id="subject"><br><br>
+            <label for="message">Message(1000 character max): </label><br>
+            <input type="textarea" Length="1000" name="message" id="message" required><br><br> <!--textarea for larger box limit-->
+            <button onclick="contactForm()">Send Jim and the team your message</button> <!-- Button calls function yet to be created-->
+            <br>
+        </form>
+
+        <p style = "text-align: left;">(Jim is notoriously bad at answering e-mails and knows no-one who is good.)</p> 
+          
+      </div>
+    </main> 
+    <footer> <!--using new footer to access the saved for later page site-wide-->
+      <div class="linkSave"><a href="savedPage.html" title="link to favourites">Your favourites...</a></div>
+    </footer>
+  </body>
+</html>

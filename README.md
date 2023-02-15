@@ -4,7 +4,7 @@ A portfolio website for my personal digital art built as part of the Hyperion De
 
 ## Description
 
-The portfolio is styled in the form of a traditional menu for a hypothetical art cafe run by Jim. There are signature dishes on square plates and a selection of puddings to choose from. Each dish clicked goes to a more modern white gallery page where the artwork can be seen (usually on a platter), saved or liked. There is a saved for later/favourites page and an about page for the artist also. The gallery pages are dynamically populated from session storage and objects. On the favourites page you can choose your favourite and comment, or send a message from the about us page though the final fucntionality for those is to be added. All photography and images are my own.
+The portfolio is styled in the form of a traditional menu for a hypothetical art cafe run by Jim. There are signature dishes on square plates and a selection of puddings to choose from. Each dish clicked goes to a more modern white gallery page where the artwork can be seen (usually on a platter), saved or liked. There is a saved for later/favourites page and an about page for the artist also. The gallery pages are dynamically populated from session storage and objects. On the favourites page you can choose your favourite and comment, or send a message from the about us page though the final fucntionality for much of those is to be added. All photography and images are my own.
 
 ## Getting Started
 

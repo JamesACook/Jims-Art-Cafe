@@ -46,4 +46,4 @@ v3 Simplified to a 4 page site with dynamic content in the gallery. E-mail form 
 
 ## Acknowledgments
 
-Hyperion Dev and FreeCodeCamp have inspired this site with much credit to pop or modern artists like Andy Warhol, Julian Opie, Stuart Macalpine-Miller and others.
+Hyperion Dev and FreeCodeCamp have inspired this site with much credit to pop or modern artists like Andy Warhol, Julian Opie, Stuart Mcalpine-Miller and others. I was Stuart's printer and framer for a while and we worked together for The Savoy with great success.

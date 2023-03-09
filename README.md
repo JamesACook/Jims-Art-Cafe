@@ -27,14 +27,9 @@ On each page there is a like or save button. Once saved you can view all your fa
 
 Learn about the artist on the about page and also use the form to send an e-mail.
 
-
-## Help
-
-Any queries e-mail james.cook@hotmail.co.uk for help
-
 ## Authors
 
-James Cook (james.cook@hotmail.co.uk ) is the artist and the site builder!
+James Andrew Cook is the artist and the site builder!
 
 ## Version History
 

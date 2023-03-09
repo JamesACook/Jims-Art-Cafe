@@ -1,4 +1,4 @@
-# Jim's Art Cafe - Capstone Project Task 42
+# Jim's Art Cafe 
 
 A portfolio website for my personal digital art built as part of the Hyperion Dev Bootcamp task 29 and 42. It is highly responsive with even the logo formed with CSS styling that adapts to mobile sizes. As an artist's site it is deliberately quirky and offbeat at times.
 
